@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">A4Demo</string>
+    <string name="app_name">Agenda Ocean</string>
+    <string-array name="cursos">
+        <item>A1 - Introdução a desenvolvimento Android</item>
+        <item>A2 - Samsung SDK</item>
+        <item>A3 - Prática/Laboratórios</item>
+        <item>A4 - A1 + A2</item>
+    </string-array>
 </resources>
