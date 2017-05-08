@@ -7,8 +7,10 @@
     tools:context="com.example.eduardocucharro.a4samsungpedometer.MainActivity">
 
     <TextView
+        android:id="@+id/text_distancia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="80sp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
