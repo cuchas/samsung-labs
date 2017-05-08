@@ -3,6 +3,7 @@
     <string name="nome">Nome</string>
     <string name="email">Email</string>
     <string name="agendar">Agendar</string>
+    <string name="mensagem_format">Olá senhor(a) %1$s, seu curso foi agendado para %2$s na parte da %3$s</string>
     <string-array name="cursos">
         <item>A1 - Introdução a desenvolvimento Android</item>
         <item>A2 - Samsung SDK</item>
