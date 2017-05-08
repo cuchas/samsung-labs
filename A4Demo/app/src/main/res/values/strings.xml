@@ -1,9 +1,24 @@
 <resources>
     <string name="app_name">Agenda Ocean</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="agendar">Agendar</string>
     <string-array name="cursos">
         <item>A1 - Introdução a desenvolvimento Android</item>
         <item>A2 - Samsung SDK</item>
         <item>A3 - Prática/Laboratórios</item>
         <item>A4 - A1 + A2</item>
+    </string-array>
+    <string-array name="dias">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+    </string-array>
+    <string-array name="periodos">
+        <item>Manhã</item>
+        <item>Tarde</item>
+        <item>Noite</item>
     </string-array>
 </resources>
