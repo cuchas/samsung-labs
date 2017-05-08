@@ -1,9 +1,12 @@
 package com.example.eduardocucharro.a4demo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,6 +43,31 @@ public class DetalhesActivity extends AppCompatActivity implements View.OnClickL
         textCurso = (TextView)findViewById(R.id.text_curso);
         spinnerDias = (Spinner) findViewById(R.id.spinner_dias);
         spinnerPeriodos = (Spinner) findViewById(R.id.spinner_periodo);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.menu_share, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId() == R.id.menu_share) {
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.putExtra(Intent.EXTRA_TEXT, "Acabei de inscrever no curso");
+            intent.setType("text/plain");
+
+            startActivity(intent);
+
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
