@@ -21,6 +21,7 @@ public class DetalhesActivity extends AppCompatActivity implements View.OnClickL
     private static final String AGENDA_PREFERENCES = "AGENDA_PREFERENCES";
     private static final String NOME = "NOME";
     private static final String EMAIL = "EMAIL";
+    public static final String EXTRA_CURSO = "EXTRA_CURSO";
     private TextView textCurso;
     private EditText editNome;
     private EditText editEmail;
@@ -43,6 +44,10 @@ public class DetalhesActivity extends AppCompatActivity implements View.OnClickL
         textCurso = (TextView)findViewById(R.id.text_curso);
         spinnerDias = (Spinner) findViewById(R.id.spinner_dias);
         spinnerPeriodos = (Spinner) findViewById(R.id.spinner_periodo);
+
+        Intent intent = getIntent();
+        String curso = intent.getExtras().getString(EXTRA_CURSO);
+        textCurso.setText(curso);
     }
 
     @Override
