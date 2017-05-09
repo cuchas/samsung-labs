@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">A3Lab05</string>
+    <string name="capturar">Capturar</string>
+    <string name="without_permissions">Sem Permissão</string>
+    <string name="it_looks_you_locked_permissions_">
+        Para capturar novas fotos ou mostrar fotos no seu dispositivo são necessárias as permissões
+        de camera e acesso a memória. Vá até a tela de permissões no seu dispositivo e habilite as
+        permissões.</string>
+    <string name="media_unavailable">Media Indisponível</string>
+    <string name="external_storage_unavailable_pls_">
+        O dispositivo de armazenamento está indisponível. Verifique se o seu dispositivo está
+        conectado a um pc ou se o cartão sd foi removido.</string>
+
+    <string name="your_have_no_space_available_pls_">
+        O espaço em disco é insuficiente para registrar as fotos. É necessário no mínimo 5MB livre
+        no disco.
+        </string>
+    <string name="no_few_space_on_disk">Sem espaço em disco</string>
+    <string name="file_system_error">Sistema de arquivos indisponível</string>
+    <string name="something_went_wrong_during_file_">
+        Não foi possível criar o arquivo, verifique se a espaço em disco disponível e bateria
+        suficiente para capturar fotos.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="choose_album">Escolher album</string>
+    <string name="album">Album</string>
+    <string-array name="photo_input_options">
+        <item>Escolher foto</item>
+        <item>Capturar nova</item>
+    </string-array>
+
+</resources>
