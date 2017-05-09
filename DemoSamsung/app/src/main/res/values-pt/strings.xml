@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DemoSamsung</string>
+    <string-array name="cursos">
+        <item>Iron Maiden</item>
+        <item>Molejão</item>
+        <item>Calipso</item>
+        <item>Nightwish</item>
+        <item>Pink Floyd</item>
+    </string-array>
+    <string-array name="periodos">
+        <item>Manhã</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+    </string-array>
+</resources>

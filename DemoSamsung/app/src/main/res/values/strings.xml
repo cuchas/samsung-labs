@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DemoSamsung</string>
+    <string-array name="cursos">
+        <item>Iron Maiden</item>
+        <item>Molejão</item>
+        <item>Calipso</item>
+        <item>Nightwish</item>
+        <item>Pink Floyd</item>
+    </string-array>
+    <string-array name="periodos">
+        <item>Manhã</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+    </string-array>
+    <string-array name="dias">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+    </string-array>
+    <string name="title_activity_detalhes">DetalhesActivity</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="agendar">Agendar</string>
+    <string name="mensagem_format">
+        Olá %1$s seu curso foi agendado para %2$s de %3$s
+    </string>
+</resources>
