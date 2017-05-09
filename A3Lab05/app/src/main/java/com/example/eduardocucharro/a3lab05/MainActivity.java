@@ -52,10 +52,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        //tem permissoes
-        //tem disco
-        //disco disponivel
-        //foi tudo bem
-        //devo mostrar permissoes
+        //TODO verificar se app tem permissões camera e gravar no disco
+
+        //TODO verificar se devo pedir permissoes
+
+        //TODO verificar se tem disco suficiente
+
+        //TODO verificar se o disco está disponivel
+
+        //TODO tratar se tudo ocorreu como deveria
     }
 }
